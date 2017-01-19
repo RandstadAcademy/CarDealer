@@ -54,9 +54,16 @@ namespace CarDealer
             //string toCheck = "p";
 
             //var result = s.Where(a => a.StartsWith(toCheck));
+            //a => a.Name.StartsWith("x")
+
+            //var result = db.Manifactures.FirstOrDefault(a => a.Name.StartsWith("x"));
 
 
-            var result = db.Manifactures.First(a => a.Name.StartsWith("a"));
+            List<Manifacture> result = db.Manifactures
+                .Where(a => a.Name.StartsWith("a"))
+                .OrderBy(a => a.Name ).ToList();
+
+
 
 
 
