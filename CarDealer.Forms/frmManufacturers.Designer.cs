@@ -30,13 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dgvManufacturers = new System.Windows.Forms.DataGridView();
-            this.manifactureBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.websiteDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carModelsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.manifactureBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvManufacturers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.manifactureBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -56,30 +56,6 @@
             this.dgvManufacturers.Name = "dgvManufacturers";
             this.dgvManufacturers.Size = new System.Drawing.Size(363, 208);
             this.dgvManufacturers.TabIndex = 0;
-            // 
-            // manifactureBindingSource
-            // 
-            this.manifactureBindingSource.DataSource = typeof(CarDealer.DataLayer.Manifacture);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(13, 257);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(363, 23);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.Text = "Chiudi";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(13, 227);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(363, 23);
-            this.btnSave.TabIndex = 2;
-            this.btnSave.Text = "Salva";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -104,6 +80,30 @@
             this.carModelsDataGridViewTextBoxColumn.DataPropertyName = "CarModels";
             this.carModelsDataGridViewTextBoxColumn.HeaderText = "CarModels";
             this.carModelsDataGridViewTextBoxColumn.Name = "carModelsDataGridViewTextBoxColumn";
+            // 
+            // manifactureBindingSource
+            // 
+            this.manifactureBindingSource.DataSource = typeof(CarDealer.DataLayer.Manifacture);
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(13, 257);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(363, 23);
+            this.btnClose.TabIndex = 1;
+            this.btnClose.Text = "Chiudi";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(13, 227);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(363, 23);
+            this.btnSave.TabIndex = 2;
+            this.btnSave.Text = "Salva";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // frmManufacturers
             // 

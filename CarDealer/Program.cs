@@ -11,7 +11,38 @@ namespace CarDealer
     {
         static void Main(string[] args)
         {
+            CarDealerModelContainer db = new CarDealerModelContainer();
 
+            //CarModel cm = new CarModel();
+
+            //cm.ModelName = "Golf";
+            //cm.Color = "Grey";
+            //cm.CarDoor = 5;
+            //cm.Km = 0;
+            //cm.Year = 2007;
+
+
+            //cm.ManifactureId = 3;
+
+
+            //db.CarModels.Add(cm);
+
+            //db.SaveChanges();
+
+
+
+            foreach (CarModel cm in db.CarModels)
+            {
+                Console.WriteLine(String.Format("{0} - {1}", cm.ModelName, cm.Manifacture.Name));
+            }
+
+
+
+            Console.ReadKey();
+        }
+
+        private static void Test1()
+        {
             //qui potrei scrivere CarDealer.DataLayer
             //ma in realtà siccome il namespace qui è CarDealer posso limitarmi
             //a scrivere solo DataLayer.NomeCLasseNellaLibreria se non
@@ -65,12 +96,11 @@ namespace CarDealer
 
 
 
-            var results = from a in db.Manifactures
+            /*var results = from a in db.Manifactures
                          where a.Name.StartsWith("a")
                          orderby a.Name,a.Website
                          select new { Nome=a.Name , Website=a.Website};
-
-            Console.ReadKey();
+                         */
         }
     }
 }
