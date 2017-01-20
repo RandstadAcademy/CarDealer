@@ -52,9 +52,9 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(147, 227);
+            this.btnClose.Location = new System.Drawing.Point(13, 257);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(125, 23);
+            this.btnClose.Size = new System.Drawing.Size(363, 23);
             this.btnClose.TabIndex = 1;
             this.btnClose.Text = "Chiudi";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -64,7 +64,7 @@
             // 
             this.btnSave.Location = new System.Drawing.Point(13, 227);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(128, 23);
+            this.btnSave.Size = new System.Drawing.Size(363, 23);
             this.btnSave.TabIndex = 2;
             this.btnSave.Text = "Salva";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -74,7 +74,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(388, 262);
+            this.ClientSize = new System.Drawing.Size(388, 292);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.dgvManufacturers);
