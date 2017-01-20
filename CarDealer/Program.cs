@@ -37,7 +37,19 @@ namespace CarDealer
             //}
 
 
+            var mx = new Manifacture();
 
+           
+
+            db.Manifactures.Add(mx);
+
+            Console.WriteLine(db.Entry(mx).State);
+
+            var m1 = db.Manifactures.First();
+            m1.Website = "asdas";
+            //db.Manifactures.Remove(m1);
+            db.Entry(m1).State = System.Data.Entity.EntityState.Unchanged;
+            Console.WriteLine(db.Entry(m1).State);
 
             foreach (var m in db.Manifactures)
             {
