@@ -31,9 +31,21 @@ namespace CarDealer
 
 
 
-            foreach (CarModel cm in db.CarModels)
+            //foreach (CarModel cm in db.CarModels)
+            //{
+            //    Console.WriteLine(String.Format("{0} - {1}", cm.ModelName, cm.Manifacture.Name));
+            //}
+
+
+
+
+            foreach (var m in db.Manifactures)
             {
-                Console.WriteLine(String.Format("{0} - {1}", cm.ModelName, cm.Manifacture.Name));
+                Console.WriteLine(m.Name);
+                foreach (var cm in m.CarModels)
+                {
+                    Console.WriteLine("\t"+cm.ModelName);
+                }
             }
 
 
