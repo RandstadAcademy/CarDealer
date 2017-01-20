@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer", "CarDealer\CarD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.DataLayer", "CarDealer.DataLayer\CarDealer.DataLayer.csproj", "{EACAA8D4-CA08-4639-BB29-2B8F4C9503B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealer.Forms", "CarDealer.Forms\CarDealer.Forms.csproj", "{88655E49-78C9-4D84-AA60-64BFCF13F69B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EACAA8D4-CA08-4639-BB29-2B8F4C9503B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACAA8D4-CA08-4639-BB29-2B8F4C9503B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACAA8D4-CA08-4639-BB29-2B8F4C9503B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88655E49-78C9-4D84-AA60-64BFCF13F69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88655E49-78C9-4D84-AA60-64BFCF13F69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88655E49-78C9-4D84-AA60-64BFCF13F69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88655E49-78C9-4D84-AA60-64BFCF13F69B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
